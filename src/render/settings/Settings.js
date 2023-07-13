@@ -36,7 +36,7 @@ class Settings extends React.Component {
         closable={false}
         height="350"
         onClose={this.onClose}
-        visible={this.state.visible}
+        open={this.state.visible}
         getContainer={false}
         bodyStyle={{ marginTop: "-25px" }}
         style={{ position: "absolute" }}
